@@ -1,0 +1,29 @@
+.landing-page-title-col {
+  font-family: 'KoHo', sans-serif;
+  font-size: 5vh;
+}
+
+.my-container {
+  padding: 5vh;
+  border: 1px solid red;
+
+}
+
+.my-row {
+  padding: 1vh;
+  border: 1px solid blue;
+}
+
+.my-col {
+  border: 1px solid black;
+}
+
+.my-row-card {
+  background-image: url("/assets/glade_card.jpg");
+  background-size: cover;
+}
+
+.my-row-card {
+  display: block;
+  height: 20vh;
+}
