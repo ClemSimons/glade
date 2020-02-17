@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get "home", to: "landing#home"
 
+  resources :snowboards
+
 end

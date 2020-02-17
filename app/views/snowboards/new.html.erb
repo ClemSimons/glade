@@ -1,0 +1,19 @@
+<h1>Ajoute ton matos 🏂</h1>
+
+<%= form_with scope: :snowboards, url: snowboards_path, local: true do |form| %>
+
+  <div>
+    <%= form.label :title %></br>
+    <%= form.text_field :title %></br>
+  </div>
+
+  <div>
+    <%= form.label :text %></br>
+    <%= form.text_area :text %></br>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+
+<% end %>
